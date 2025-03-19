@@ -1,0 +1,40 @@
+* {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdca3f;
+    color: #333
+}
+
+.bigFreakingHeader {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    border: #333 solid 5px;
+}
+
+.bigFreakingTitle {
+    display: inline-block;
+    text-align: center;
+    font-size: 24px;
+    vertical-align: top;
+}
+
+.titleImage {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    border: 5px solid #333;
+    vertical-align: top;
+}
+
+.trailerVideo {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    border: 5px solid #333;
+}
