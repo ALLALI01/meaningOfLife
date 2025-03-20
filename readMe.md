@@ -11,20 +11,20 @@ I aim to use reactive buttons to enhance interactivity.
 ## To-Do List
 
 1. **Research and Planning**
-    []- Watch *The Meaning of Life* for inspiration.
-    []- List key scenes and quotes to include.
-    []- Plan the layout and design of the page.
+    [x]- Watch *The Meaning of Life* for inspiration.
+    [x]- List key scenes and quotes to include.
+    [x]- Plan the layout and design of the page.
 
 2. **Content Creation**
-    []- Write a brief introduction about Monty Python and the film.
-    []- Create sections for each key scene or quote.
-    []- Find or create short videos and gifs to embed.
-    []- Write captions and articles for each section.
+    [x]- Write a brief introduction about Monty Python and the film.
+    [x]- Create sections for each key scene or quote.
+    [x]- Find or create short videos and gifs to embed.
+    [x]- Write captions and articles for each section.
 
 3. **Design and Styling**
-    []- Choose a color scheme and fonts that match the theme.
-    []- Design the layout to resemble a humorous newspaper.
-    []- Style headers, paragraphs, and other elements using CSS.
+    [x]- Choose a color scheme and fonts that match the theme.
+    [x]- Design the layout to resemble a humorous newspaper.
+    [x]- Style headers, paragraphs, and other elements using CSS.
 
 4. **Interactivity**
     []- Implement reactive buttons for navigation and interactivity.

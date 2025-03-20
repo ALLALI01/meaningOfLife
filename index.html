@@ -4,43 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
+    <script src="script.js"></script>
     <title>Meaning of Life</title>
 </head>
 <body>
-    <div class="bigFreakingHeader">
+    <div class="bigFreakingTitle">
         <h1><strong>Monty Python's: The Meaning of Life</strong></h1>
-        <img src="meaningOfLifeTitle.jpg" alt="Meaning of Life Movie Cover" width="300" height="400">
+        <div class="trailerVideo">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wMJ24QwHdCY?si=tipdYK1ojACvuln_"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
     </div>
-    <nav class="navbar">
-        <ul>
-            <li><a href="#trailer">Trailer</a></li>
-            <li><a href="#monologue">Monologue</a></li>
-            <li><a href="#footer">Footer</a></li>
-        </ul>
-    </nav>
+    <div class="titleImage">
+        <img src="meaningOfLifeTitle.jpg" alt="Meaning of Life Movie Cover" width="400" height="500px">
+    </div>
+
     <div class="helloDownThere">
         <p><strong>HELLO DOWN THERE</strong></p>
         <p>Can anybody HEAR me?</p>
         <button class="yesButton"><strong>Yes!</strong></button>
     </div>
-    <div class="trailerVideo">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/wMJ24QwHdCY?si=tipdYK1ojACvuln_"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="buttonGif">
+        <div class="tenor-gif-embed" data-postid="18099249" data-share-method="host" data-aspect-ratio="1.77778" data-width="50%">
+            <a href="https://tenor.com/view/hand-of-god-monty-python-gif-18099249">Hand Of God Monty Python GIF</a>
+            from <a href="https://tenor.com/search/hand+of+god-gifs">Hand Of God GIFs</a></div> 
+            <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+    </div>
+    <div class="rather">
+    <p>Is there anything you'd RAAAAATTTHER be doing, other than looking at my website?</p>
+    <p>RIGHT! OFF you go!</p>
     </div>
     <article class="soBigMonologue">
-        <p>There's nothing out here in the vastness of space</p>
-        <p>Just us, and you</p>
-        <p>Ooooh, you are so big</p>
-        <p>So absolutely HUGE</p>
-        <p>Gosh, we're all really impressed down here, I can tell you</p>
-        <p>Forgive us, O great one, for taking up so much of your time</p>
-        <p>But we are so insignificant next to you</p>
+        <ul>
+            <li>If you are still here, please join us in prayer.</li>
+            <li>Oh lord,</li>
+            <li>Ooooh, you are so big</li>
+            <li>So absolutely HUUGE</li>
+            <li>Gosh, we're all really impressed down here, I can tell you</li>
+            <li>Forgive us, O lord, for this our dreadful toadying</li>
+            <li>But you also strong and also just so super....BIG</li>
+        </ul>
+        <button class="amenButton"><strong>Amen!</strong></button>
     </article>
-    <footer class="BigFreakingFooter">
-        <p>Thank you for your time</p>
-        <p>Have a great day</p>
+    <div class="waiters">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mzlCdWwYn2I?si=LAv_G5D8qs6E4GHV"
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+        picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/aczPDGC3f8U?si=hRI1fjpD6-My5MbV"
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+        picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/npJQKtV5aP4?si=a15uJ3lwE1WcUzZw"
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+        picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
 </body>
+<footer class="BigFreakingFooter">
+    <div class="organDonorForm">
+        <p><strong>Are you an organ donor?</strong></p>
+            <label for="yes">Yes</label>
+            <input type="radio" id="yes" name="organDonor" value="yes">
+            <label for="no">No</label>
+            <input type="radio" id="no" name="organDonor" value="no">
+        <p><strong>Can we have your liver?</strong></p>
+            <label for="yesLiver">Yes</label>
+            <input type="radio" id="yesLiver" name="liverDonor" value="yes">
+            <label for="noLiver">I'm Still Using It</label>
+            <input type="radio" id="noLiver" name="liverDonor" value="no">
+        <p>    
+            <button class="submitLiver">Submit</button>
+        </p>    
+    </div>
+</footer>
 </html>

@@ -3,38 +3,70 @@
     padding: 10px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background-color: #fdca3f;
-    color: #333
-}
-
-.bigFreakingHeader {
-    text-align: center;
-    font-size: 36px;
-    font-weight: bold;
+    background-color: #fac472;
     color: #333;
-    border: #333 solid 5px;
 }
 
 .bigFreakingTitle {
-    display: inline-block;
     text-align: center;
-    font-size: 24px;
-    vertical-align: top;
+    font-size: 36px;
+    font-weight: bold;
+    border: #333 solid 5px;
+    display: inline-block;
+    width: 70%;
+    margin: 0px;
 }
 
 .titleImage {
     display: inline-block;
-    width: 100%;
-    height: auto;
-    padding: 0px;
-    border: 5px solid #333;
+    width: 25%;
+    padding: 15px;
+    margin: 0px;
     vertical-align: top;
 }
 
-.trailerVideo {
+.helloDownThere {
+    display: inline-block;
+    margin: 75px;
+    width: 40%;
     text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border: #333 solid 5px;
+}
+
+.buttonGif {
+    display: inline-block;
+    width: 50%;
+    padding: 15px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.rather {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
     width: 100%;
+}
+
+.soBigMonologue {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+    margin: 0px;
+}
+
+.organDonorForm {
+    text-align: center;
+    font-size: 16px;
+    border: #333 solid 5px;
+    display: inline-block;
+    width: 25%;
     height: 100%;
-    padding: 0px;
-    border: 5px solid #333;
+    margin: 0px;
 }
