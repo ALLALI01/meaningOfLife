@@ -7,20 +7,9 @@ document.addEventListener('DOMContentLoaded', function () {
   btn.addEventListener('click', btnClick);
   function btnClick() {
     alert("I see you've brought the button that goes BING!");
-  }
+  };
   document.querySelector('.submitDonorForm').addEventListener('click', function() {
     const submitGif = document.querySelector('.organDonorGif');
     submitGif.hidden = !submitGif.hidden;
   });
 });
-
-
-
-// const container = document.getElementById('button-container');
-// const toggleButton = document.createElement('button');
-// let isToggled = false;
-
-// toggleButton.textContent = 'Turn On';
-// toggleButton.addEventListener('click', () => {
-//   isToggled = !isToggled;
-//   toggleButton.textContent = isToggled ? 'Turn Off' : 'Turn On';
