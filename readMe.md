@@ -35,8 +35,8 @@ I aim to use reactive buttons to enhance interactivity.
     [] - Make improvements based on the feedback received.
 
 6. **Final Touches**
-    [] - Add any final touches or additional content.
-    [] - Ensure all elements are working as intended.
+    [x] - Add any final touches or additional content.
+    [x] - Ensure all elements are working as intended.
 
 8. **Launch**
     [x] - Deploy the project to GitHub repository and link the repository to the class module.
